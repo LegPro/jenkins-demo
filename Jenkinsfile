@@ -8,6 +8,7 @@ label {
 stages {
 stage ("one") {
 steps {
+  rm -rf ./
 echo "This is demo branch"
 }
 }
