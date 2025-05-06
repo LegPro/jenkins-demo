@@ -8,7 +8,7 @@ customWorkspace "/mnt/server"
 stages {
 stage ("one") {
 steps {
-echo "This is master branch"
+echo "This is demo branch"
 }
 }
 }
