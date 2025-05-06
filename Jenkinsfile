@@ -1,9 +1,6 @@
 pipeline {
 agent {
-node {
 label "built-in"
-customWorkspace "/mnt/server"
-}
 }
 stages {
 stage ("one") {
