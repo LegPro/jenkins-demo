@@ -1,7 +1,8 @@
 pipeline {
 agent {
 label {
-label "built-in"
+  label "built-in"
+  customWorkspace '/mnt/server'
 }
 }
 stages {
